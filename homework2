@@ -11,10 +11,17 @@ int main()
 	cin >> salary;
 	cout << "Enter Sale : ";
 	cin >> sale;
-    cout << "Enter Commission Percent : ";
+        cout << "Enter Commission Percent : ";
 	cin >> Percent;
 	
 	cout << "\nYour name = " << name;
 	cout << "\nTotal Revenue " << ((sale/100)*5)+salary << " Bath" << endl;
+	
+	
 	return(0);
+
+
+
+
+
 }
